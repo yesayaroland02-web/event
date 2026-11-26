@@ -37,7 +37,7 @@ app.use(
 app.get('/', (_req, res) => {
   res.json({
     status: 'ok',
-    message: 'Event Music Backend API is running 🚀',
+    message: 'EventBackend API is running 🚀',
     version: '1.0.0',
     endpoints: {
       auth: '/api/auth',
